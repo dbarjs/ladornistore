@@ -1,0 +1,17 @@
+{
+  "name": "ladornistore",
+  "version": "2.0.0",
+  "description": "ladorni store re-design",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "ladorni",
+    "store",
+    "ladornistore",
+    "dbarjs"
+  ],
+  "author": "Eduardo Barros",
+  "license": "MIT"
+}

@@ -1,0 +1,2469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <title>La Dorni Store</title>
+  <META name="title" content="La Dorni Store" />
+  <META name="description" content=" Vinhos La Dorni, Vinhos Varietais, Vinhos de Mesa, Vinhos sem álcool, Vinhos Espumantes" />
+  <META name="keywords" content="Vinhos La Dorni, Vinhos Varietais, Vinhos de Mesa, Vinhos sem álcool, Vinhos Espumantes" />
+  <META name="robots" content="ALL"/>
+  <META NAME="Language" CONTENT="Portuguese" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="google-site-verification" content="" />
+  <meta property="og:image" content="http://ladornistore.com.br/arquivos_loja/30198/Fotos/loja_Logo_31291.png" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store" />
+  <meta http-equiv="Pragma" content="no-cache, no-store" />
+  <META HTTP-EQUIV="EXPIRES" CONTENT="-1">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+</head>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" ></script>
+
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+<!-- ICONES DO GOOGLE -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+funcao/script.js?versao=5.98
+<script src="https://www.ladornistore.com.br/funcao/maskedinput-1.4.js?versao=5.98" ></script>
+
+<script src="https://www.ladornistore.com.br/funcao/script.js?versao=5.98"></script>
+<script src="https://www.ladornistore.com.br/funcao/ajax.js?versao=5.98"></script>
+
+<script >
+  function muda_tamanho(){
+  }
+  var sistema = 'pc';
+  function atualiza_sessao_tempo(){
+    // window.setInterval('atualiza_sessao()', 600000); //10 min
+
+  }
+  function atualiza_sessao(){
+    // exibe_div('atualiza_sessao.php', 'id_atualiza_sessao');
+  }
+  n_acesso=1;
+</script>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" onLoad="atualiza_sessao_tempo();   if(window.inicio != undefined) inicio()">
+<span id="id_atualiza_sessao"></span>
+
+<!-- estilo padrao -->
+<style>
+  /*  style nova versao */
+  .titulo1{
+    padding: 10px 0;
+  }
+  /*
+  .caixaTopo{
+    padding: 5px 10px;
+  }
+  */
+  .inpt100{
+    width: 100%;
+    max-width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  .infos-finais,
+  #calcula-frete-section,
+  #botoes-footer{
+    padding: 15px;
+    margin: 0 auto 15px auto;
+    font-size: 12px;
+  }
+  /*
+  #calcula-frete-section{
+    background-color: #fff;
+  }
+  */
+  #botoes-footer input{width:100%;}
+  .infos-finais,
+  #calcula-frete-section *{
+    box-sizing: border-box;
+  }
+  .right-two-coluns{
+    float: right;
+    width: 42%;
+    padding: 15px 0;
+  }
+  .left-two-coluns{
+    float: left;
+    width: 57%;
+    padding: 15px 0;
+  }
+  #calcula-frete-section{
+    text-align: left;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #calcula-frete-section input{
+    display: inline-block;
+    text-align: center;
+  }
+  #calcula-frete-section .sub-tit{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  #calcula-frete-section .pesoTotal{
+    margin-top: 15px;
+  }
+  #botoes-footer{
+    text-align: center;
+  }
+  #botoes-footer div{
+    margin: 5px;
+  }
+  .codPromocional{
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 12px;
+    float: left;
+    box-sizing: border-box;
+    /*background-color: #fff;*/
+  }
+  .codPromocional div:not(.input-group){
+    display: inline-block;
+  }
+  .codPromocional div.tit,
+  .engTitSubTit .tit{
+    width: 165px;
+  }
+  .desc .main{
+    display: inline-block;
+  }
+  .subTotal{
+    margin: 10px 0;
+  }
+  #carrinhoNew .subTotal{
+    float: left;
+    width: 100%;
+  }
+  .subTotal .main,
+  .freteInfos .main{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+  .pesoTotal{
+    font-size: 12px;
+  }
+  .pesoTotal .main{
+    display: inline-block;
+  }
+  .new-version .caixaTextoBorda{
+    padding:20px 10px;
+    margin:30px 0;
+    /*float: left!important;*/
+  }
+  .new-version .calendario img{
+    position:relative;
+    top:5px;
+  }
+  .new-version div .caixaTexto input.data{
+    width: 70%;
+  }
+  .new-version div .caixaTexto select{
+    padding: 2px;
+  }
+  .new-version div .caixaTexto input[type="checkbox"]{
+    margin-left:0;
+    cursor:pointer;
+  }
+  .new-version div .caixaTexto input[type="numero"]{
+    padding:3px;
+    text-align:center;
+  }
+  .new-version div .caixaTexto{
+    display:inline-block;
+    box-sizing:border-box;
+  }
+  .new-version div .caixaTexto label{
+    cursor:pointer;
+    margin-right: 5px;
+  }
+  .new-version div .caixaTexto input[type="radio"]{
+    position:relative;
+    top:3px;
+    margin-left:0;
+  }
+  .new-version div .caixaTexto:first-child{
+    padding:5px 0;
+    margin-top:15px;
+    font-size:12px;
+    /*width:25%;*/
+    width: 135px;
+  }
+  .new-version div .caixaTexto:last-child{
+    width:70%;
+  }
+  .new-version .engloba-btn{
+    margin:15px 25px;
+    text-align:right;
+  }
+  .new-version .engloba-btn input,
+  .new-version .engloba-btn img{
+    vertical-align: middle;
+  }
+  .new-version .engloba-btn input{
+    margin:0;
+    display:initial;
+  }
+  #engloba-passos{
+    width:100%;
+    text-align:center;
+  }
+  .captcha{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .captcha:first-child div{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .captcha:last-child{
+    margin-left: 10px;
+  }
+  .passos{
+    height:35px;
+    padding:5px;
+    width:25%;
+    background-color:#f1f1f1;
+    font-weight:bold;
+    display:inline-block;
+    position:relative;
+    margin-right:11px;
+    cursor:pointer;
+    text-align:center;
+  }
+  .passos:hover{
+    background-color:#f6f6f6;
+  }
+  .passos:hover:before{
+    border-left: 22px solid #f6f6f6;
+  }
+  .passos:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position:absolute;
+    right:-21px;
+    z-index: 1;
+    top:0;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 22px solid #f1f1f1;
+  }
+  .passos:last-child:before{
+  }
+  .passos:first-child{
+  }
+  .passos:last-child{
+    margin-right:0;
+  }
+  .arrow-atras{
+    padding-left:30px;
+  }
+  .passos div{
+    font-size: 18px;
+  }
+  .arrow-atras:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position:absolute;
+    left:0px;
+    top:.5px;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 22px solid #FFFFFF;
+  }
+  #res-captcha{
+    text-align: center;
+    color: red;
+    display: none;
+    padding-top: 35px;
+    font-size: 16px;
+  }
+  .telefone:last-child{
+    width:50% !important;
+  }
+  .texts-topo-caixa-borda{
+    font-size: 12px;
+  }
+  .texts-topo-caixa-borda.left{
+    display: inline-block;
+    width: 59%;
+  }
+  .texts-topo-caixa-borda.right{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: right;
+  }
+  .caminho-topo{
+    margin: 15px 0 10px 0;
+  }
+  .passosDiv{
+    display:none;
+  }
+  .passo1{
+    display:block;
+  }
+  .passos.completado{
+    background-color:#acacac;
+    color:#fff;
+  }
+  .passos.completado:before{
+    border-left-color:#acacac;
+  }
+  #loading-gif{display: none;}
+  #cadastro-concluido{
+    padding: 50px;
+  }
+  #cadastro-concluido .titulo1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #cadastro-concluido .btns{
+    text-align: center;
+  }
+  #cadastro-concluido input{
+    display: inline-block;
+  }
+  .passos.current{
+    background:#BB825B;
+    color:#fff;
+  }
+  .passos.current:before{
+    border-left-color: #BB825B;
+  }
+  #cadastro-concluido{display: none;}
+  .content *{
+    box-sizing: border-box;
+  }
+  .content{
+    width:100%;
+    margin:0 auto;
+  }
+  .content .caixaTextoBorda{
+    float: left;
+    text-align: left;
+    margin: .5%;
+    width: 49%;
+  }
+  .content .caixaTexto input[type="text"], .content .caixaTexto input[type="password"]{
+    max-width:100%;
+    width:100%;
+    padding: 3px;
+  }
+  .content .content-white{
+    padding: 0 10px;
+  }
+  .content .caixaTopo{
+    padding:0 10px;
+    line-height:22px;
+  }
+  .content .etapa-compra{
+    padding:15px 0;
+  }
+  .content .botoes{
+    padding:10px;
+    text-align:right;
+    width:100%;
+  }
+  .content .botoes input{
+    margin:0;
+    display: initial;
+  }
+  .content .input{
+    display:inline-block;
+    padding-top:5px;
+    max-width:100%;
+    width:100%;
+  }
+  .content .smallText{
+    padding: 10px 0;
+    color:red;
+  }
+  .content .smallText.more-padding{
+    padding: 25px 0;
+  }
+  .esqueci.more-padding{
+    padding-top:21.5px;
+  }
+  .center-caixaborda{
+    margin:25px auto;
+    width:95%;
+    font-size: 12px;
+  }
+  .center-caixaborda div .main:first-child{
+    padding: 5px 0;
+    margin-top: 5px;
+    width: 30%;
+  }
+  .center-caixaborda div .main:last-child{
+    width: 68%;
+    font-size: 12px;
+  }
+  .center-caixaborda>div>div{
+    display: inline-block;
+  }
+  .center-caixaborda select{
+    width: 100%;
+  }
+  .engloba-btn {
+  }
+  .engloba-btn input{
+    margin: auto;
+  }
+  .valorFrete{font-size: 12px;}
+  .info-finais .main{
+    display: inline-block;
+    font-size: 12px;
+  }
+  #separa-total{
+    text-align: right;
+  }
+  #separa-total hr{
+    margin-right: 0;
+  }
+  .tipo-fretes{
+    vertical-align: top;
+  }
+  .center-caixaborda input[type="text"].campo-numero{
+    width: 40%;
+  }
+  hr{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: #f1f1f1;
+  }
+  .eng-frete,
+  .eng-info-finais{
+    margin-top: 15px;
+  }
+  .eng-frete{
+    float: left;
+    width: 50%;
+    /* width: 80%; */
+    /* margin: auto; */
+    /* padding-top: 15px; */
+  }
+  .info-finais{
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .info-finais .main.desc{
+  }
+  .info-finais .main.valor{
+    float: right;
+    font-weight: bold;
+  }
+  .table-fretes{
+
+  }
+  .eng-info-finais{
+    float: right;
+    width: 46%;
+  }
+  .tit-main{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .eng-login-cadastro{
+    text-align: center;
+    width: 100%;
+    margin: 0 -.5%;
+  }
+  .eng-login-cadastro *,
+  .eng-login-cadastro .esqueci a{
+    font-size: 12px;
+  }
+  .contato *{	box-sizing: border-box; }
+  .contato {background: #FFFFFF;}
+  .contato{
+    padding:30px 5%;
+    margin: 30px 0;
+  }
+
+  .contato select {
+    width: 100%;
+    cursor: pointer;
+  }
+  .contato .main{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+  }
+  .contato .main div{
+    float: left;
+    text-align: left;
+  }
+  .contato #id_bot_enviar{
+    margin-left: auto;
+  }
+  .contato .main div:first-child{
+    width: 140px;
+    font-size: 12px;
+  }
+  .contato .main div:last-child{
+    width: 70%;
+  }
+  .contato .main.fone div:last-child input:first-child{
+    float: left;
+    width: 10%;
+  }
+  .contato .main.fone div:last-child input:last-child{
+    float: right;
+    width: 88%;
+  }
+
+  .contato .main.codKey div:last-child div{
+    width: 50%;
+  }
+  .engTitSubTit{
+    display: inline-block;
+  }
+  .tit{
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #texto_contato{
+    margin: 0;
+    font-size:14px;
+  }
+  .freteTable td{
+    /*background: transparent;*/
+  }
+  .cadaFrete{
+    cursor: pointer;
+    height: 35px;
+  }
+  .cadaFrete:hover,
+  .cadaFrete:hover td{
+    /* background: #f7f7f7 !important; */
+  }
+  .esqueciSenhaBox{
+    padding: 15px 0;
+  }
+  .esqueciSenhaBox .caixaTextoBorda{
+    margin: 10px 0;
+    padding: 20px 10px 0 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .esqueciSenhaBox .caixaTextoBorda input{
+    margin: auto;
+  }
+  .esqueciSenhaBox .caixaTexto{
+    font-size: 12px;
+  }
+  .meuPedidos-new{
+    padding: 15px;
+  }
+  .meuPedidos-new .infoBoxContents{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+  }
+  /*
+  .row{
+    margin: auto -15px;
+    width: 100%;
+  }
+  */
+  .meuPedidos-new .infoBoxContents .caixaTextoBorda{
+    padding: 10px;
+    padding-top: 0;
+  }
+  .infos-finais .label{}
+  .infos-finais .text{
+    float: right;
+  }
+  .btnsMeusPedidos{
+    padding: 15px;
+    float: right;
+  }
+  .btnsMeusPedidos input,
+  .btnsMeusPedidos a{
+    float: right;
+    margin-left: 10px;
+  }
+  .tabelaDePedidos{
+    margin: 15px 0;
+  }
+  #id_cartao *{
+    box-sizing: border-box;
+  }
+  .codPromocionalFinalizar{
+    padding: 15px;
+  }
+  .codPromocionalFinalizar div{
+    display: inline-block;
+  }
+  .main.mylabel{
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    /*width: 165px; ajuste no carrinho */
+  }
+  .info-finais .main.mylabel{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .codPromocionalFinalizar .main.txt{
+    vertical-align: top;
+  }
+  .codPromocionalFinalizar input[type="button"],
+  #formaPagmt input[type="button"]{
+    margin: 5px 0;
+  }
+  /*
+  jonas - ajuste no carrinho
+  #frete_valor{
+    font-weight: bold;
+  }
+  */
+  .infoBoxContents .tabela_adicionar .caixaTexto{
+    font-size: 12px;
+    display: inline-block;
+    margin: 2.5px 0;
+  }
+  .infoBoxContents .tabela_adicionar .caixaTexto:first-child{
+    font-weight: bold;
+    width: 95px;
+  }
+  .detalhePedido-new .colunaGerenciado{
+    font-weight: bold;
+  }
+  .infoBoxContents .tabela_adicionar .caixaTexto.titulo,
+  .detalhePedido-new .titSmall{
+    width: 100%;
+    margin: 30px 0 15px 0;
+    padding-bottom: 5px;
+    float: none;
+    text-transform: uppercase;
+    border-bottom: solid thin #f7f7f7;
+  }
+  .infoBoxContents .tabela_adicionar .caixaTexto.titulo i,
+  .detalhePedido-new .titSmall i{
+    margin-top: -6px;
+  }
+  .detalhePedido-new.caixaTextoBorda{
+    padding: 0 15px 15px 15px;
+    margin: .5%;
+    font-size: 12px;
+    width: 49%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .detalhePedido-new .fundo{
+    margin: 7.5px 0;
+  }
+  .detalhePedido-new.infosFinaisDetal .descFinal{
+    font-weight: bold;
+    float: right;
+    display: inline-block;
+  }
+  .detalhePedido-new.infosFinaisDetal .titFinal{
+    display: inline-block;
+  }
+  .detalhePedido-new.infosFinaisDetal .engTitFinal {
+    margin: 10px 0;
+  }
+  .engBtnDetalhesPedido{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+  }
+  .codPromocional input[type="text"],
+  input[name="fieldCep"]{
+    text-align: center;
+  }
+  .content .informe{
+    padding-top:10px;
+    height:45px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  @media (max-width: 1093px) {
+    .content .caixaTextoBorda,
+    .eng-frete,
+    .eng-info-finais,
+    .left-two-coluns,
+    .right-two-coluns,
+    .infoBoxContents{
+      width: 100% !important;
+    }
+  }
+  .img-responsive{
+    max-width: 75%;
+    height: auto;
+  }
+  table.tabela_frete input[type="radio"]{
+    float: left;
+    margin-left: 15px;
+  }
+  #id_tabela_carrinho input[type="radio"]{
+    float: left;
+    margin-right: 10px;
+  }
+  [src="imagens/correios_pac.gif"],
+  [src="imagens/correios_sedex.gif"]
+  {
+    max-width: 50%;
+  }
+  [src="imagens/correios_logo_sedex10.jpg"]
+  {
+    max-width: 60%;
+  }
+  #formaPagmt{
+    padding: 0 15px 15px 15px;
+  }
+  #formaPagmt p strong {
+    font-size: 14px;
+  }
+  #tabela-fretes{
+    display: initial;
+  }
+  .pesoTotal .main{
+    font-size: 10px;
+  }
+  .uma_coluna_totais #formaPagmt {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .indiqueBox{
+    padding: 15px;
+  }
+  .indiqueBox .main{
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .indiqueBox .lblInd{
+    margin: 10px 0;
+  }
+  .indiqueBox div .main,
+  .indiqueBox .engAmgInd{
+    display: inline-block;
+  }
+  .indiqueBox div .main:first-child{
+    /*padding: 0 10px;*/
+    font-size: 12px;
+  }
+  .indiqueBox div .main:last-child{
+  }
+  .indiqueBox div.lblInd .main:first-child{
+    /*width: 12%;*/
+  }
+  .indiqueBox div.lblInd .main:last-child{
+    /*width: 73%;*/
+  }
+  .indiqueBox div.engAmgInd .main:first-child{
+    /*width: 15%;*/
+  }
+  .indiqueBox div.engAmgInd .main:last-child{
+    /*width: 75%;*/
+  }
+  .nota{
+    margin: 20px 0;
+  }
+  .keyIndiq{
+    margin-bottom: 35px;
+  }
+  .keyIndiq .smallText{
+    display: inline-block;
+  }
+  .keyIndiq .smallText img{
+    /*position: relative;
+    top: 4px;*/
+  }
+  .btnRight{margin-left: auto;}
+  .main.tit{
+    margin: 15px 0;
+  }
+  .topIndq{
+    margin: 10px 0;
+  }
+  .topIndq div{
+    display: inline-block;
+  }
+  .topIndq .td_indique{
+    position: relative;
+    top: 10px;
+  }
+  .div_embalagem {
+    width: 100%;
+    padding-top: 5px;
+    margin: 0;
+  }
+  .div_embalagem i {
+    top: 6px;
+    position: relative;
+  }
+  .div_embalagem input[type="checkbox"] {
+    top: 2.5px;
+    position: relative;
+    cursor: pointer;
+  }
+  .span_embalagem {
+    padding: 5px 0 10px 0;
+  }
+  .mp_retorno_mercado_pago {
+    padding-top: 25px;
+    display: inline-block;
+  }
+  div#row-desc IMG, div#desc IMG{ /*ajusta img na desc e resumo do produto  */
+    max-width: 100%;
+  }
+</style>
+<style>
+  /*  stylesheet */
+
+  Body{
+    color:#663300;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+    font-family:’Roboto’, sans-serif !important;
+    background:#FFFFFF;
+  }
+  *{
+    outline: 0;
+  }
+  TD, P, A {
+    color:#663300;   /*problema no carrinho */
+    font-family:’Roboto’, sans-serif !important;
+    text-decoration: none;
+  }
+  A:hover {
+    text-decoration: underline;
+  }
+  FORM {
+    display: inline;
+  }
+  BUTTON{
+    text-align:center;
+    font-weight:bold;
+    background-color:#FFFFFF;
+    font-size:11px;
+    font-family:tahoma,verdana;
+    color:#663300;
+    cursor: pointer;
+    border:1px #FFFFFF solid;
+  }
+  /*
+  TEXTAREA {
+    font-family: ’Roboto’, sans-serif !important;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  */
+  SELECT{cursor: pointer;max-width: 100%;}
+  TEXTAREA, INPUT, SELECT{
+    font-family: ’Roboto’, sans-serif !important;
+    border:1px solid #a9a9a9;
+    border-radius: 2px;
+    padding: 3px;
+    background-color:#fff;
+    color:#000;
+  }
+  input[type='CHECKBOX'], input[type='radio'], input[type='image']{
+    border:none;
+    background:none;
+  }
+  .caixaTopo, .caixaTexto, .caixaTextoBorda, .caixaTextoFundoPagina, TD.menu,  .infoBoxContents,.textoNormal, TD.infoBox, SPAN.infoBox , TD.main, P.main , TABLE.smallText, TD.smallText, SPAN.smallText, P.smallText,.main {
+    font-family: ’Roboto’, sans-serif !important;
+    font-size: 12px;
+  }
+  .caixaTexto {
+    background: #FFFFFF;
+    color: #663300;
+  }
+  .caixaTextoFundoPagina {
+    background: #FFFFFF;
+    color: #663300;
+  }
+  .div_caixa_login{
+    /*.td_caixa_login,*/
+    padding:5px;
+  }
+  .caixaTextoBorda {
+    background: #FFFFFF;
+    color: #663300;
+    border: #FFFFFF 1px solid;
+  }
+  A.caixaTexto {
+    color: 663300;
+    text-decoration: none;
+  }
+  A.caixaTexto:hover  {
+    color: #663300;
+    text-decoration: underline;
+  }
+  .Borda{
+    border: #FFFFFF 1px solid;
+    background: #FFFFFF;
+    overflow-x: auto;
+  }
+  TR.topo {
+    background: #F8EFE5;
+  }
+  TD.topo {
+    font-family: ’Roboto’, sans-serif !important;
+    font-size: 36px;
+    font-weight: bold;
+    color: #663300;
+  }
+  TD.menu {
+    background: #F8EFE5;
+    color: #FFFFFF;
+    font-weight : bold;
+  }
+  A.menu_vertical{
+    color: #663300;
+    font-size: 13px;
+  }
+  A.menu {
+    color: #FFFFFF;
+  }
+
+
+
+
+  TD.titulo1, DIV.titulo1, .titulo1 {
+    font-family: ’Roboto’, sans-serif !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: #BB825B;
+  }
+
+  .botao{
+    background-color: #FFFFFF;
+    color: #663300;
+    border: solid #FFFFFF 1px;
+    text-align:center;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  .hand{
+    cursor: pointer;
+  }
+  td.td_vitrine{
+    padding:8px;
+  }
+  .indexDestaque, .indexVitrine{
+    font-size:16px;
+    padding-left:10px;
+  }
+  TABLE.tabela_principal{
+    background:#ffffff;
+  }
+  IMG{
+    border:none;
+  }
+  IMG.img_oferta, IMG.img_novidade, IMG.lista_produto{
+    width:160px;
+
+  }
+  IMG.img_indisponivel{
+    width: 160px;
+    height: auto;
+    border:0px;
+  }
+  .td_lista_nome{
+    font-size:14px;
+    font-weight:bold;
+  }
+  .ponteiro{
+    cursor:pointer;
+  }
+  /* Rules for sizing the icon. */
+  /* Alinhamento */
+  .material-icons.pull-right{ float: right; }
+  .material-icons.pull-left{ float: left; }
+  /* Tamanhos */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  .td_central{
+    margin: 0 auto;
+    padding: 0;
+  }
+  DIV.td_central{
+    width:100%;
+
+  }
+
+  .td_central.bcolmd7,
+  .td_central.bcolmd9{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .infos-finais {
+    float: left;
+    width: 100%;
+  }
+  #body-comentario {
+    float: left;
+    width: 100%;
+  }
+  #body-comentario .col-sm-9,
+  #body-comentario .col-sm-3,
+  #body-comentario .col-sm-2,
+  #body-comentario .col-sm-10 {
+    position: relative;
+    float: left;
+    padding-right: 15px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+  #body-comentario .col-sm-3 {
+    width: 25%;
+    font-size: 12px;
+  }
+  #body-comentario .col-sm-9 {
+    width: 75%;
+  }
+  #body-comentario .col-sm-2 {
+    width: 16.66666667%;
+  }
+  #body-comentario .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .td_adicionar .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+  #body-comentario .form-group.row {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #body-comentario input:not([type="button"]),
+  #body-comentario textarea {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+  }
+  #body-comentario .page-header {
+    border-bottom: solid thin #ddd;
+    padding: 20px 15px 15px 15px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #body-comentario .page-header h4 {
+    margin: 0 !important;
+    font-size: 14px;
+  }
+  #body-comentario .page-header h5 {
+    margin: 0 !important;
+    font-size: 12px;
+  }
+  #body-comentario .foto-coment {
+    display: none;
+  }
+  #body-comentario .cada-comentario {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    padding-top: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  #body-comentario .cada-coment {
+    border-bottom: solid thin #ddd;
+    padding-bottom:10px;
+  }
+  .nome-coment {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  #body-comentario .eng-extras-coment div {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  #body-comentario .nota-coment::after {
+    content: ' - ';
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #body-comentario .caixaTextoFundoPagina {
+    float: left;
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+  }
+  .alert {
+    float: left;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .td_adicionar.col-sm-offset-3.col-sm-9.text-right {
+    width: 100% !important;
+  }
+  .td_adicionar.col-sm-offset-3.col-sm-9.text-right input {
+    float: right;
+    margin: -3px;
+  }
+  .resposta-coment {
+    margin: 15px;
+    border-bottom: solid thin #ddd;
+    padding-bottom:10px;
+  }
+  .resposta-coment .nome {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .resposta-coment .icon-resp {
+    margin-right: 5px;
+  }
+  .resposta-coment .icon-resp,
+  .resposta-coment .infos-resp {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .espaco_altura{
+    height: 10px;
+  }
+  #id_form_login {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #modal-avise-prdt [class^=col-],
+  #modal-cotacao [class^=col-],
+  #modal-indique-produto [class^=col-] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  #modal-avise-prdt .page-header h1,
+  #modal-cotacao .page-header h1,
+  #modal-indique-produto .page-header h1 {
+    margin-top: 0;
+    float: left;
+    width: 100%;
+  }
+  #modal-avise-prdt .col-sm-9,
+  #modal-cotacao .col-sm-9,
+  #modal-indique-produto .col-sm-9 { width: 75%; }
+  #modal-avise-prdt .col-sm-3,
+  #modal-cotacao .col-sm-3,
+  #modal-indique-produto .col-sm-3 { width: 25%; }
+  #modal-avise-prdt .col-sm-12,
+  #modal-cotacao .col-sm-12,
+  #modal-indique-produto .col-sm-12 { width: 100%; }
+  #modal-avise-prdt .col-sm-6,
+  #modal-cotacao .col-sm-6,
+  #modal-avise-prdt .col-xs-6,
+  #modal-cotacao .col-xs-6,
+  #modal-indique-produto .col-sm-6,
+  #modal-indique-produto .col-xs-6 { width: 50%; }
+  #modal-avise-prdt .panel-heading,
+  #modal-cotacao .panel-heading,
+  #modal-indique-produto .panel-heading {
+    font-weight: bold;
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+  }
+  #modal-avise-prdt .form-group.row,
+  #modal-cotacao .form-group.row,
+  #modal-indique-produto .form-group.row {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #modal-avise-prdt .form-group.row input[type="text"],
+  #modal-avise-prdt .form-group.row input[type="email"],
+  #modal-cotacao .form-group.row input[type="text"],
+  #modal-cotacao .form-group.row input[type="email"],
+  #modal-indique-produto .form-group.row input[type="text"],
+  #modal-indique-produto .form-group.row input[type="email"],
+  #modal-avise-prdt .form-group.row textarea,
+  #modal-cotacao .form-group.row textarea,
+  #modal-indique-produto .form-group.row textarea,
+  #modal-avise-prdt .form-group.row select,
+  #modal-cotacao .form-group.row select,
+  #modal-indique-produto .form-group.row select {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  #modal-avise-prdt .panel,
+  #modal-cotacao .panel,
+  #modal-indique-produto .panel {
+    float: left;
+    width: 100%;
+  }
+  #modal-avise-prdt #id_bot_continuar,
+  #modal-cotacao #id_bot_continuar,
+  #modal-indique-produto #id_bot_continuar {
+    float: right;
+  }
+
+  #modal-avise-prdt .col-sm-9 .row,
+  #modal-cotacao .col-sm-9 .row,
+  #modal-indique-produto .col-sm-9 .row,
+  #modal-indique-produto .col-sm-6 .row {
+    margin-right: -15px!important;
+    margin-left: -15px!important;
+  }
+  .page-header h1 small {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+  }
+  .container.container-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .panel-captcha {
+    margin-top: 15px;
+  }
+  .pull-right {
+    float: right;
+  }
+  .no-padding-right {
+    padding-right: 0!important;
+  }
+  .no-padding-left {
+    padding-left: 0!important;
+  }
+  .pedido-finalizado {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .pedido-finalizado .col-md-3 {
+    width: 25%;
+    float: left;
+  }
+  .pedido-finalizado .col-md-9 {
+    width: 75%;
+    float: left;
+  }
+  .pedido-finalizado>.caixaTexto {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #modal-cotacao .bot_fechar_janela {
+    position: relative;
+    top: 7px;
+  }
+  #id_banner_Full,  #img_id_banner_Full{
+    width:100%;
+  }
+  .img_whats{
+    width:25px;
+    height:25px;
+    vertical-align:top;
+  }
+  .valor{ /*DIV preço na funçao*/
+    color:red;
+  }
+  .cx_login_novo_cliente, .cx_login_esqueceu_senha {
+    DISPLAY: INLINE-BLOCK;
+    PADDING: 5PX;
+  }
+</style>
+<!-- estilo do modelo -->
+<style>
+  TD.rodape {
+    border-top:solid #FFFFFF 3px;
+    font-family: ’Roboto’, sans-serif !important;
+    font-size: 12px;
+    color: #663300;
+    font-weight: bold;
+  }
+  A.rodape, A.rodape:hover{
+    color: #663300;
+  }
+  .caixaTopo {
+    font-family: ’Roboto’, sans-serif !important;
+    font-size: 12px;
+    font-weight: bold;
+    background: #FFFFFF;
+    color: #663300;
+  }
+
+
+
+
+  .Fundo { background:#FFFFFF; }
+  .FundoBarraDir { background:#FFFFFF }
+  .FundoBarraEsq { }
+  .MenuTopo { }
+  .link_menuDep{
+    color:#333;
+    font-size:12px;
+  }
+  A.link_menuDep:hover{
+    color:#333;
+  }
+  .menuDep{
+    height:30px;
+    text-align:center;
+    vertical-align:middle;
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//menu_bg.jpg');
+    font-weight:bold;
+  }
+  .menu_pag_interna{
+    height:28px;
+    text-align:center;
+    font-weight:bold;
+    vertical-align:middle;
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro/FundoMenuTopo3.gif');
+    font-size:13px;
+  }
+  .link_busca, A.link_busca {
+    font-size: 10pt;
+    font-weight: bold;
+  }
+  .link_busca_imagem {
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro/bg_banner1.jpg');
+  }
+
+  .link_caminho, a.link_caminho{
+    font-weight:bold;
+    font-size:11px;
+  }
+  a.link_caminho{
+    text-decoration: underline;
+  }
+  /*  Novas Classes para o modelo M9 */
+  .fundo{
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//fundo.png');
+  }
+  .fundo_busca{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border:none;
+    color:#666;
+    height:20px;
+    width:148px;
+    padding-left:7px;
+  }
+  .fundo_meio_topo{
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//fundo_meio.png');
+    background-repeat:repeat-x;
+  }
+  .menuDep_Dir{
+    height:30px;
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//fundo_dep_dir.png');
+    border:0;
+    background-repeat:repeat-y;
+
+  }
+  .menuDep_Esq{
+    height:30px;
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//fundo_dep.png');
+    background-repeat:repeat-y;
+
+  }
+  .fundo_rodape{
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//fundo_rodape.png');
+    background-repeat:repeat-x;
+
+  }
+  .meio_rodape{
+    background-image:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro//meio_rodape.png');
+    padding-top:7px;/* era 40*/
+    line-height: 17px; /* não tinha */
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#FFF;
+  }
+  .dir_fundo{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:5px;
+    color:#FFF;
+  }
+  .text_topo{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#FFF;
+  }
+  .text_topo_dir{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding-bottom:8px;
+    color:#FFF;
+  }
+  input, textarea {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#404040;
+  }
+  .fundo_input{
+    height:25px;
+    background:url('https://img2.dnsloja.com/arquivos/m9/marrom_escuro/input_bg.gif');
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#666;
+    width:162px;
+    background-repeat:repeat-x;
+  }
+
+  IMG.img_oferta, IMG.img_novidade{
+    width:140px;
+  }
+  #id_banner_Lateral_Direita, #id_banner_Lateral_Esquerda {
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  .icones_redes_sociais{
+  }
+
+  .img_whats{
+    width:20px;
+    height:20px;
+  }
+</style>
+
+<!-- estilo dos botoes -->
+<style>
+  /* style botoes */
+  .caixaTopo , .indexVitrine, .indexDestaque{
+    background-image:url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/fundo_vitrine_destaque1.gif);
+    line-height: 24px;
+    height:24px;
+    color: #FFFFFF;
+  }
+  TD.caixaTopo {
+    line-height:initial;
+  }
+  TD.indexCarrinho{
+    color: #FFFFFF;
+    background-image:url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/fundo_carrinho1.gif) ;
+  }
+  input.botao{
+
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border:none;
+    display:block;
+    line-height: 0;
+    text-indent:-9000px;
+    background-position:center;
+  }
+
+  input.bot_entrar{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_entrar1.png);
+    width:84px;
+    height:31px;
+  }
+  input.bot_indicar_produto{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_indicar_produto1.png);
+    width:139px;
+    height:31px;
+    text-align:left;
+  }
+  input.bot_comprar_produto{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_comprar_produto1.png);
+    width:139px;
+    height:31px;
+  }
+  input.bot_solicitar_cotacao{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_solicitar_cotacao1.png);
+    width:139px;
+    height:31px;
+  }
+
+  input.bot_calcular_frete{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_calcular_frete1.png);
+    width:139px;
+    height:31px;
+    display:inline;
+  }
+  input.bot_salvar_alteracao{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_salvar_alteracoes1.png);
+    width:139px;
+    height:31px;
+
+  }
+  input.bot_continuar_comprando{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_continuar_comprando1.png);
+    width:167px;
+    height:31px;
+  }
+  input.bot_realizar_pedido{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_realizar_pedido1.png);
+    width:139px;
+    height:31px;
+  }
+  input.bot_2_via{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_2_via1.png);
+    width:55px;
+    height:20px;
+  }
+
+  input.bot_comprar{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_comprar1.png);
+    width:61px;
+    height:20px;
+
+  }
+  input.bot_pesquisar{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_pesquisar1.png);
+    width:114px;
+    height:31px;
+  }
+  input.bot_enviar{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_enviar1.png);
+    width:84px;
+    height:31px;
+  }
+  input.bot_clique_aqui{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_clique_aqui1.png);
+    width:114px;
+    height:31px;
+  }
+  input.bot_finalizar_pedido{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_finalizar_pedido1.png);
+    width:139px;
+    height:31px;
+  }
+  input.bot_continuar{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_continuar1.png);
+    width:114px;
+    height:31px;
+
+  }
+  input.bot_fechar_janela{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_fechar_janela1.png);
+    width:139px;
+    height:31px;
+
+  }
+  input.bot_voltar{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_voltar1.png);
+    width:84px;
+    height:31px;
+  }
+  input.bot_efetuar_cadastro{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_cadastrar1.png);
+    width:114px;
+    height:31px;
+
+  }
+  input.bot_calcular{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_calcular1.png);
+    width:121px;
+    height:31px;
+  }
+  input.bot_recalcular{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_recalcular1.png);
+    width:114px;
+    height:31px;
+    display:inline;
+  }
+  input.bot_ver{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_ver1.png);
+    width:55px;
+    height:20px;
+  }
+
+  .td_cliente{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//sua_conta.png);
+    background-repeat:no-repeat;
+    width:77px;
+    height:44px;
+  }
+  .td_carrinho{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//suas_compras.png);
+    background-repeat:no-repeat;
+    width:79px;
+    height:44px;
+  }
+  .td_finalizar{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//finalizar_pedido.png);
+    background-repeat:no-repeat;
+    width:75px;
+    height:44px;
+  }
+  .td_indique{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//indique_o_site.png);
+    background-repeat:no-repeat;
+    width:78px;
+    height:44px;
+  }
+  .td_contato{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//contato.png);
+    background-repeat:no-repeat;
+    width:75px;
+    height:44px;
+  }
+  .td_atendimento_online{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//atendimento.png);
+    background-repeat:no-repeat;
+    width:100px;
+    height:50px;
+  }
+  .td_login{
+    float:right;
+    margin-top:-10px;
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro//login.png);
+    background-repeat:no-repeat;
+    width:46px;
+    height:30px;
+  }
+
+  td.td_borda_button{
+    border-bottom:#FFFFFF 1px dotted;
+  }
+  td.td_vitrine{
+    border-bottom:#FFFFFF 1px dotted;
+    border-right:#FFFFFF 1px dotted;
+    border-bottom-right:70%;
+    border-bottom-collapse:separate;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  input.bot_compra_rapida, input.bot_comprar_vit, input.bot_comprar_vit, input.bot_detalhe, input.bot_resumo, input.bot_solicitar_cotacao_vit{
+    width:133px;
+    height:31px;
+  }
+
+  input.bot_compra_rapida{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_compra_rapida1.png);
+  }
+
+  input.bot_comprar_vit{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_comprar_vit1.png);
+  }
+
+  input.bot_solicitar_cotacao_vit{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_solicitar_cotacao_vit1.png);
+  }
+
+
+  input.bot_detalhe{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_detalhe1.png);
+  }
+
+  input.bot_resumo{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_resumo1.png);
+  }
+
+  input.bot_comprar_produto, input.bot_indicar_produto, input.bot_adicionar_carrinho, input.bot_ir_carrinho, input.bot_solicitar_cotacao{
+    display:inline-block;
+  }
+
+
+  input.bot_adicionar_carrinho{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_adicionar_carrinho1.png);
+    width:160px;
+    height:31px;
+  }
+  input.bot_ir_carrinho{
+    background-image: url(https://img2.dnsloja.com/arquivos/imagens_padroes/marrom_escuro/bot_ir_carrinho1.png);
+    width:140px;
+    height:31px;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Francois+One);
+  .indexVitrine, .indexDestaque{
+    font-family: 'Francois One', sans-serif;
+    font-size:15px;
+    text-shadow: 1px 1px 0px rgba(33, 31, 31, 1);
+    color:#FFF;
+    padding-left:10px;
+    padding-top:1px;
+    font-weight: bold;
+
+
+  }
+</style>
+<script>
+  if(window.location.href.substring(0,5)=='http:'){
+    // dominio = 'https://www.ladornistore.com.br' + window.location.href.substring(window.location.href.indexOf("/",8));
+    // window.open(dominio,'_self')
+  }
+</script>
+<script>
+  var loja_sem_dominio='0';
+  var servidor_imagem = 'https://img2.dnsloja.com/';
+  var Menu_Tipo=1;
+  var modelo_loja = 'arquivos/m9/';
+</script>
+<style type="text/css">
+  ul.menubar {
+    margin: 0px;
+    padding: 0px;  /* nenhum espaÃ§amento */
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    font-weight:none;
+    width:100%;
+    height:42px;
+  }
+
+  ul.menubar .menuvertical {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; /* limpa o estilo da lista (numerada ou com marcadores) */
+    float:left;
+    background-color: none;
+    border: 0px;
+  }
+
+  ul.menubar ul.menu {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    z-index:11;
+  }
+
+  ul.menubar a { /* quando o mouse nÃ£o estÃ¡ sobre os itens do menu (departamentos) */
+    width:100%; /* tamanho horizontal de cada departamento */
+    height:30px;  /* tamanho vertical de cada departamento */
+    display: block;
+    text-decoration: none;  /* sem sublinhado */
+    color:#FFF; /* cor da fonte departamentos */
+    text-align:center;
+    padding-right:15px;
+  }
+  ul.menubar a:hover { /* quando o mouse estÃ¡ sobre os itens do menu (departamentos) */
+    width:100%; /* tamanho horizontal de cada departamento */
+    height:30px; /* tamanho vertical de cada departamento */
+    display: block;
+    text-decoration: none; /* sem sublinhado */
+    color: #FFF; /* cor da fonte do departamento  */
+    text-align:center;
+  }
+
+  ul.menu,
+  ul.menu ul { /* lista de submenus (categorias)*/
+    margin: 0;
+    padding: 0;
+    border-bottom: 0px; /* borda inferior no final da caixa de categorias */
+    width: 250px; /* tamanho da caixa de submenus */
+    height:0px;
+  }
+  ul.menu li { /* lista de submenus (categorias)*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width:220px;
+    list-style: none; /* limpa o estilo da lista (numerada ou com marcadores) */
+  }
+  ul.menu li a { /* quando o mouse nÃ£o estÃ¡ sobre itens do submenu (categorias) */
+    display: block;
+    text-decoration: none; /* sem sublinhado nos itens do submenu */
+    border-bottom: 1px dotted #fff;
+    font-weight:normal; /* fonte sem negrito */
+    color:#FFF; /* cor da fonte do submenu */
+    padding: 0px; /* nenhum espaÃ§amento */
+    padding-top:15px;
+    padding-bottom:10px;
+    margin:0px;
+    height:100%; /* tamanho vertical de cada item do submenu */
+    width:100%; /* tamanho horizontal de cada item do submenu */
+    text-align:left;
+    text-indent:10px;  /* cada item serÃ¡ levado 10px pra frente */
+  }
+  ul.menu li a:hover { /* quando o mouse estÃ¡ sobre itens do submenu (categorias) */
+    display:block;
+    text-decoration:none; /* sem sublinhado nos itens do submenu */
+    font-weight:normal; /* fonte sem negrito */
+    color: #FFF; /* cor da fonte de cada item do submenu quando o mouse estÃ¡ sobre */
+    padding:0px; /* nenhum espaÃ§amento dos itens do submenu */
+    padding-top:15px;
+    padding-bottom:10px;
+    margin:0px;
+    height:100%; /* tamanho vertical de cada item do submenu */
+    width:100%; /* tamanho horizontal de cada item do submenu */
+    text-align:left;
+    text-indent:10px;  /* cada item serÃ¡ levado 10px pra frente */
+  }
+
+  ul.menubar ul li ul li{
+    position:relative;
+    left:-220px;
+    bottom:42px;
+    overflow: auto;
+  }
+  /* Fix IE. Hide from IE Mac (para que funcione no navegador IE) */
+  * html ul.menu li {
+    float: left;
+    padding:0px;
+    margin:0px;
+    height:34px; /* tamanho vertical da caixa de cada item do submenu (categorias) */
+  }
+  * html ul.menu li a {
+    float: left;
+    padding:0px;
+    margin:0px;
+    height:34px; /* tamanho vertical da caixa de cada item do submenu (categorias) */
+  }
+  /* End */
+</style><style>
+  .geral{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+  }
+</style>
+<script>
+
+
+  function vertical() {
+    var navItems = document.getElementById("nav").getElementsByTagName("li");
+    for (var i=0; i< navItems.length; i++){
+      if(navItems[i].className == "submenu"){
+        navItems[i].onmouseover=function() {this.getElementsByTagName('ul')[0].style.display="block";this.style.backgroundColor = "#f9f9f9";}
+        navItems[i].onmouseout=function() {this.getElementsByTagName('ul')[0].style.display="none";this.style.backgroundColor = "#FFFFFF";}
+      }
+    }
+  }
+
+  function horizontal() {
+    var navItems = document.getElementById("barra").getElementsByTagName("li");
+    for (var i=0; i < navItems.length; i++) {
+      if((navItems[i].className == "menuvertical") || (navItems[i].className == "submenu")){
+        if(navItems[i].getElementsByTagName('ul')[0] != null) {
+          navItems[i].onmouseover=function() {this.getElementsByTagName('ul')[0].style.display="block";this.style.backgroundColor = "#f9f9f9";}
+          navItems[i].onmouseout=function() {this.getElementsByTagName('ul')[0].style.display="none";this.style.backgroundColor = "#FFFFFF";}
+        }
+      }
+    }
+  }
+
+</script>
+
+<div id="iframe_resizer"  >
+  <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" id="id_tabela_principal" class="tabela_principal">
+    <tr>
+      <td class="td_topo" id="id_td_topo"><link href='https://img2.dnsloja.com/arquivos_loja/30198/arquivo/favicon.ico' rel='icon' type='image/x-icon'/>
+        <link href='https://img2.dnsloja.com/arquivos_loja/30198/arquivo/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
+        <style>
+          @import url(http://fonts.googleapis.com/css?family=Roboto);
+          BODY {
+            background:url(https://www.ladornistore.com.br/arquivos_loja/30198/arquivo/bg_geral.jpg)#261606 center top fixed;
+            font-family: 'Roboto', sans-serif !important;
+          }
+          #id_tabela_central {
+            margin:auto !important;
+            width:1020px !important;
+            background:#FFF !important;
+          }
+          #id_tabela_principal {background:none !important;}
+          .geral {background:none !important;}
+          ul.menubar { font-family: 'Roboto', sans-serif !important; font-size:0.9em !important; background:none !important;}
+          ul.menubar a {background:#6E0202 !important; background-image:none !important;}
+
+        </style>
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="199" align="center" valign="middle" style="background:url(https://www.ladornistore.com.br/arquivos_loja/30198/arquivo/bg_topo.jpg) top center no-repeat;"><table width="1020" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td rowspan="3" align="center" valign="middle"><a href="index.php"><img border="0" src="https://img2.dnsloja.com/arquivos_loja/30198/Fotos/loja_Logo_31291.png?cache" alt="La Dorni Store"  id="logo_loja"   ></a></td>
+                <td width="55%" align="center" valign="middle"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="60" height="40" align="center" valign="middle" bgcolor="#5C491F"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/home.png" alt="" title="Seja Bem-Vindo" /></td>
+                    <td align="left" valign="middle" bgcolor="#5C491F"><a href="index.php" style="color:#FFF; text-decoration:none; font-size:0.9em;">Página Inicial</a></td>
+                    <td align="center" valign="middle" bgcolor="#663300" style="color:#FFF; font-size:0.9em;"><a href="finalizar.php" style="color:#FFF; text-decoration:none;">Finalizar Pedido</a> | <a href="cliente_informacoes.php" style="color:#FFF; text-decoration:none;">Meus Pedidos</a> | <a href="indique.php" style="color:#FFF; text-decoration:none;">Indique-nos</a></td>
+                  </tr>
+                </table></td>
+                <td align="center" valign="middle"><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="40" align="center" valign="middle" style="background-color: rgba(255, 255, 255, 0.5);"><form action="consulta.php" method="get" name="formConsulta" id="formConsulta" style="float:left; width:100%;" >
+                      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td><input name="palavra" type="text" size="30" onfocus="if(this.value=='Digite Aqui...')this.value='';" onblur="if(!this.value)this.value='Digite Aqui..';" value="Digite Aqui..." class="fundo_input" tabindex="1" style="background:none; border:0px solid #fff; width:95%; height:30px; font-size:15px; color:#fff; padding:0px 0 0 35px; font-weight:400;;"/></td>
+                          <td width="50" align="center" valign="middle"><a href="#" onclick="javascript:if(document.formConsulta.palavra.value=='')alert('Informe uma palavra para consulta!'); else document.formConsulta.submit();" tabindex="3">
+                            <input name="OK" type="image" src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/buscar.png" value="OK" style="border:0px;" />
+                          </a></td>
+                        </tr>
+                      </table>
+                    </form></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td align="center" style="color:#FFF; font-size:1.1em;">Olá! Seja bem-vindo! Faça seu <strong><a href="login.php" style="color:#FFF; text-decoration:none;">LOGIN</a></strong> ou <strong><a href="novo_cliente.php" style="color:#FFF; text-decoration:none;">CADASTRE-SE</a></strong></td>
+                <td rowspan="2" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="50" align="left" valign="middle"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/fone.png" alt="" title="(43) 3542.4315" /></td>
+                    <td align="center" valign="middle" style="color:#FFF; font-size:1.8em;">(43) 3542.4315</td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td align="center"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="30" align="left" valign="middle"><a href="cart.php"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/cart.png" alt="" title="0 Itens" /></a></td>
+                    <td align="left" valign="middle" style="color:#FFF; font-size:1.6em;"><a href="cart.php" style="color:#FFF; text-decoration:none;">0 Itens</a></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" bgcolor="#000000" style="color:#FFF; padding:5px; font-size:1em !important;"><a href="index.php" class="menu">Home</a> &nbsp;|&nbsp;<a href="interna.php?cod=114486" class="menu">Conheça a Vinícola</a> &nbsp;|&nbsp; <a href="contato.php" class="menu">Contato</a></td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" bgcolor="#6E0202">
+              <div class="geral">
+                <div>
+                  <ul class="menubar" id="barra">
+                    <li class="menuvertical"><a href="d-204269-Vinhos-La-Dorni" target="_self" style="padding-top:12px;">Vinhos La Dorni</a>
+                      <ul class="menu" id="nav">
+                        <li class="submenu"><a href="c-552720-Vinhos-de-Mesa" target="_self">Vinhos de Mesa</a></li>
+                        <li class="submenu"><a href="c-553173-Vinhos-Espumantes" target="_self">Vinhos Espumantes</a></li>
+                        <li class="submenu"><a href="c-552888-Vinhos-sem-alcool" target="_self">Vinhos sem álcool</a></li>
+                        <li class="submenu"><a href="c-552354-Vinhos-Varietais" target="_self">Vinhos Varietais</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <script>
+                vertical();horizontal()
+              </script></td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/banner_principal.jpg"  title="Conheça mais da Arquitetura medieval" /></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td >
+        <table border="0" cellpadding="3" cellspacing="3" width="100%" class="tabela_central" id="id_tabela_central" >
+          <td valign="top" width="150"   class="td_esquerda" id="id_td_esquerda">
+            <div id="dive7rLeftTop" align="center"></div>
+            <table width="170" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="41" align="center" valign="middle" style="background:url(https://www.ladornistore.com.br/arquivos_loja/30198/arquivo/bg_title.jpg); color:#fff; font-weight:700;">Departamentos</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" style="padding-left:5px; padding-top:8px;">&nbsp;<a class="menu_vertical caixaTexto menu_vertical_dep" style="font-weight:bold;" href="d-204269-Vinhos-La-Dorni"  >Vinhos La Dorni</a><br />
+
+                  <span id='categoria_dep_204269'>&nbsp;&nbsp;&nbsp;<a class="menu_vertical caixaTexto" href="c-552720-Vinhos-de-Mesa">Vinhos de Mesa</a><br />&nbsp;&nbsp;&nbsp;<a class="menu_vertical caixaTexto" href="c-553173-Vinhos-Espumantes">Vinhos Espumantes</a><br />&nbsp;&nbsp;&nbsp;<a class="menu_vertical caixaTexto" href="c-552888-Vinhos-sem-alcool">Vinhos sem álcool</a><br />&nbsp;&nbsp;&nbsp;<a class="menu_vertical caixaTexto" href="c-552354-Vinhos-Varietais">Vinhos Varietais</a><br /></span>
+
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="41" align="center" valign="middle" style="background:url(https://www.ladornistore.com.br/arquivos_loja/30198/arquivo/bg_title.jpg); color:#fff; font-weight:700;">Login</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" style="padding-left:5px; padding-top:8px; padding-right:5px;">
+                  <form name="login" method="post" action="login.php?logar=1"  >
+                    <br />
+                    E-mail<br>
+                    <input name="email"  style="width: 95%;" type="text">
+                    <br>
+                    Senha<br>
+                    <input name="senha"  maxlength="14" style="width: 95%;" type="password">
+                    <center><br />
+
+                      <input type="button" onclick="login.submit()"  value="Entrar" class="botao bot_entrar" id="id_bot_entrar">
+                      <div class="cx_login_novo_cliente">
+                        <a class="caixaTexto" href="novo_cliente.php">
+                          Cadastre-se</a>
+                      </div>
+                      <div class="cx_login_esqueceu_senha">
+                        <a class="caixaTexto" href="login.php">Esqueceu a senha?</a>
+                      </div>
+                    </center>
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="41" align="center" valign="middle" style="background:url(https://www.ladornistore.com.br/arquivos_loja/30198/arquivo/bg_title.jpg); color:#fff; font-weight:700;">Novidades</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" style="padding-left:5px; padding-top:8px; padding-right:5px;"><a href="p-7480383-SUPER-COMBO-DE-6-GARRAFAS-DO-VINHO-CASA-NAVARONNE-SEM-ALCOOL-720-ML" class="caixaTexto"><img src="https://img2.dnsloja.com/arquivos_loja/30198//Fotos/thumbs1/produto_Foto1_7480383.jpeg" alt="SUPER COMBO DE 6 GARRAFAS DO VINHO CASA NAVARONNE SEM ÁLCOOL 720 ML" title="SUPER COMBO DE 6 GARRAFAS DO VINHO CASA NAVARONNE SEM ÁLCOOL 720 ML" class="img_novidade"></a><br><BR>
+                  <a href="p-7480383-SUPER-COMBO-DE-6-GARRAFAS-DO-VINHO-CASA-NAVARONNE-SEM-ALCOOL-720-ML" class="caixaTexto">SUPER COMBO DE 6 GARRAFAS DO VINHO CASA NAVARONNE SEM ÁLCOOL 720 ML
+                    <br>R$ 102,60</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="41" align="center" valign="middle" style="background:url(https://www.ladornistore.com.br/arquivos_loja/30198/arquivo/bg_title.jpg); color:#fff; font-weight:700;">Ofetas</td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" style="padding-left:5px; padding-top:8px; padding-right:5px;">
+                  <a href="p-7383769-Vinho-Casa-Navaronne-meio-seco-sem-alcool-720-mL" class="caixaTexto"><img src="https://img2.dnsloja.com/arquivos_loja/30198//Fotos/thumbs1/produto_Foto1_7383769.jpg" alt="Vinho Casa Navaronne meio seco sem álcool 720 mL" title="Vinho Casa Navaronne meio seco sem álcool 720 mL" class="img_oferta"></a><br><BR>
+                  <a href="p-7383769-Vinho-Casa-Navaronne-meio-seco-sem-alcool-720-mL" class="caixaTexto">Vinho Casa Navaronne meio seco sem álcool 720 mL<br>
+                    <div class="valor_de"> <s>R$ 25,90</s></div><div  class="valor" >R$ 19,00</div></a><br />&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center"><center><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/le.png"/></center></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+
+            <div id="dive7rLeftBottom" align="center"></div>
+          </td>
+          <td valign="top"  width="100%" class="td_central" id="id_td_central">
+            <div class="td_central">
+
+              <div id="dive7rCenterTop" align="center"></div>
+              <div id="id_banner_Central" align="center"></div>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="table-to-div">
+                <tr>
+                  <td ><table border="0" cellpadding="0" cellspacing="0" class="table-to-div" width="100%" >
+
+                    <style>
+                      .simpleBanner {overflow:hidden;position:relative;padding:0 0 6px 0;}
+                      #siteWpr{margin:0 auto;}
+                      #siteWpr, .simpleBanner, .simpleBanner .bannerListWpr ul li , .simpleBanner TABLE{
+                        width:630px;
+                        height:300px;
+                      }
+                      .simpleBanner IMG{
+                        height:275px;
+                      }
+                      .simpleBanner TABLE{
+                        width:100%;
+                        border:0;
+                        padding-left:35px;
+                        padding-right:35px;
+                        background-color:#FFFFFF
+
+                      }
+                      .simpleBanner TD{
+                        font-size:16px;
+                        vertical-align:middle;
+                        text-align:center;
+                        background-color:#FFFFFF;
+
+                      }
+                      .bannerList A{
+                        font-size:20px;
+                        font-weight:bold;
+                        color:#261606;
+
+                      }
+                      .bannerList SPAN{
+                        color:#555555;
+                      }
+
+                      .simpleBanner.hiddenArrows .bannerControlsWpr,
+                      .simpleBanner.hiddenIndicators .bannerIndicators {display:none;}
+                      .simpleBanner ul {list-style:none;margin:0;padding:0;}
+                      .simpleBanner .bannerListWpr {clear:both;overflow:hidden;}
+                      .simpleBanner .bannerListWpr ul {width:50000px;overflow:hidden;}
+                      .simpleBanner .bannerListWpr ul li {float:left;} /* Make sure to set the width for this */
+                      .simpleBanner .bannerListWpr ul li img {display:block;}
+                      .simpleBanner .bannerControlsWpr {cursor:pointer;padding:10px 12px;position:absolute;top:37%;background:FFFFFF;}
+                      .simpleBanner .bannerControlsPrev {border-radius:0 5px 5px 0;left:0;padding-left:5px;}
+                      .simpleBanner .bannerControlsNext {border-radius:5px 0 0 5px;right:0;padding-right:5px;}
+                      .simpleBanner .bannerControlsPrev .bannerControls {border-color: transparent #E6E6E6 transparent transparent;border-width:20px 20px 20px 0;}
+                      .simpleBanner .bannerControlsNext .bannerControls {border-color: transparent transparent transparent #E6E6E6;border-width:20px 0 20px 20px;}
+                      .simpleBanner .bannerControlsPrev:hover .bannerControls {border-color:transparent #261606 transparent transparent;}
+                      .simpleBanner .bannerControlsNext:hover .bannerControls {border-color:transparent transparent transparent #261606;}
+                      .simpleBanner .bannerControls {width:0;height:0;border-style:solid;}
+                      .simpleBanner .bannerIndicators {background:transparent;right:20px;opacity:0.9;padding:4px 8px 4px 0;position:absolute;bottom:25px;}
+                      .simpleBanner .bannerIndicators ul {overflow:hidden;}
+                      .simpleBanner .bannerIndicators .bannerIndicator {background:#E6E6E6;border-radius:7px 7px 7px 7px;cursor:pointer;float:left;height:15px;margin-left:8px;width:15px;}
+                      .simpleBanner .bannerIndicators .bannerIndicator:hover {background:#261606;}
+                      .simpleBanner .bannerIndicators .bannerIndicator.current {background:#5D5D5D;cursor:default;}
+                    </style>
+                    <script  src="https://www.ladornistore.com.br/arquivos/banner/jquery1/jquery.simplebanner.js"></script>
+                    <script>
+                      $(document).ready(function(){
+                        $('.simpleBanner').simplebanner();
+                      });
+                    </script>
+                    <tr>
+                      <td  align="center"  bgcolor="#FFFFFF">
+                        <div id="siteWpr">
+                          <div class="simpleBanner">
+                            <div class="bannerListWpr">
+                              <ul class="bannerList">
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7480383-SUPER-COMBO-DE-6-GARRAFAS-DO-VINHO-CASA-NAVARONNE-SEM-ALCOOL-720-ML" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7480383.jpeg?cache" title="SUPER COMBO DE 6 GARRAFAS DO VINHO CASA NAVARONNE SEM ÃLCOOL 720 ML" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7480383-SUPER-COMBO-DE-6-GARRAFAS-DO-VINHO-CASA-NAVARONNE-SEM-ALCOOL-720-ML" >SUPER COMBO DE 6 GARRAFAS DO VINHO CASA NAVARONNE SEM ÁLCOOL 720 ML</a><br>
+                                        <span>R$ 102,60<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7480384-SUPER-COMBO-DE-6-GARRAFAS-DO-VINHO-TINTO-SECO-SEM-ALCOOL-720-ML" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7480384.jpeg?cache" title="SUPER COMBO DE 6 GARRAFAS DO VINHO TINTO SECO SEM ÃLCOOL 720 ML" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7480384-SUPER-COMBO-DE-6-GARRAFAS-DO-VINHO-TINTO-SECO-SEM-ALCOOL-720-ML" >SUPER COMBO DE 6 GARRAFAS DO VINHO TINTO SECO SEM ÁLCOOL 720 ML</a><br>
+                                        <span>R$ 160,38<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7480381-SUPER-COMBO-DE-6-GARRAFAS-VINHO-TINTO-SUAVE-SEM-ALCOOL-720-ML" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7480381.jpeg?cache" title="SUPER COMBO DE 6 GARRAFAS VINHO TINTO SUAVE SEM ÃLCOOL 720 ML" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7480381-SUPER-COMBO-DE-6-GARRAFAS-VINHO-TINTO-SUAVE-SEM-ALCOOL-720-ML" >SUPER COMBO DE 6 GARRAFAS VINHO TINTO SUAVE SEM ÁLCOOL 720 ML</a><br>
+                                        <span>R$ 106,92<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7383769-Vinho-Casa-Navaronne-meio-seco-sem-alcool-720-mL" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7383769.jpg?cache" title="Vinho Casa Navaronne meio seco sem Ã¡lcool 720 mL" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7383769-Vinho-Casa-Navaronne-meio-seco-sem-alcool-720-mL" >Vinho Casa Navaronne meio seco sem álcool 720 mL</a><br>
+                                        <span>R$ 19,00<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7003611-Vinho-La-Dorni-tinto-seco-sem-alcool-720-mL" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7003611.jpg?cache" title="Vinho La Dorni tinto seco sem Ã¡lcool 720 mL" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7003611-Vinho-La-Dorni-tinto-seco-sem-alcool-720-mL" >Vinho La Dorni tinto seco sem álcool 720 mL</a><br>
+                                        <span>R$ 29,70<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7003216-Vinho-La-Dorni-tinto-suave-sem-alcool-720-mL" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7003216.jpg?cache" title="Vinho La Dorni tinto suave sem Ã¡lcool 720 mL" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7003216-Vinho-La-Dorni-tinto-suave-sem-alcool-720-mL" >Vinho La Dorni tinto suave sem álcool 720 mL</a><br>
+                                        <span>R$ 19,80<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7003018-La-Donna-vinho-rosado-de-mesa-720-mL" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7003018.jpg?cache" title="La Donna vinho rosado de mesa 720 mL" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7003018-La-Donna-vinho-rosado-de-mesa-720-mL" >La Donna vinho rosado de mesa 720 mL</a><br>
+                                        <span>R$ 19,80<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7003124-La-Dorni-Bag-in-Box-Tinto-Suave-de-Mesa-4%2C6-Litros" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7003124.jpg?cache" title="La Dorni Bag-in-Box Tinto Suave de Mesa 4,6 Litros" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7003124-La-Dorni-Bag-in-Box-Tinto-Suave-de-Mesa-4%2C6-Litros" >La Dorni Bag-in-Box Tinto Suave de Mesa 4,6 Litros</a><br>
+                                        <span>R$ 59,00<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7003013-La-Dorni-Branco-Demi-sec-de-mesa-720-mL" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7003013.jpg?cache" title="La Dorni Branco Demi-sec de mesa 720 mL" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7003013-La-Dorni-Branco-Demi-sec-de-mesa-720-mL" >La Dorni Branco Demi-sec de mesa 720 mL</a><br>
+                                        <span>R$ 17,60<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+                                <li >
+                                  <table  cellpadding="0" cellspacing="0" >
+                                    <TR>
+                                      <td  >
+                                        <a href="p-7003015-La-Dorni-Cabernet-Sauvignon-750-mL" >
+                                          <img src="https://www.ladornistore.com.br/arquivos_loja/30198/Fotos/thumbs3/produto_Foto1_7003015.jpg?cache" title="La Dorni Cabernet Sauvignon 750 mL" border="0">
+                                        </a>
+                                      </td>
+                                      <td align="center"  width="100%">
+                                        <a  href="p-7003015-La-Dorni-Cabernet-Sauvignon-750-mL" >La Dorni Cabernet Sauvignon 750 mL</a><br>
+                                        <span>R$ 27,00<BR></span>
+                                      </td>
+                                    </TR>
+                                  </table>
+                                </li>
+
+                              </ul>
+                            </div>
+                            <div class="bannerControlsWpr bannerControlsPrev"><div class="bannerControls"></div></div>
+                            <div class="bannerIndicators"><ul></ul></div>
+                            <div class="bannerControlsWpr bannerControlsNext"><div class="bannerControls"></div></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+
+                    <style>
+                      .lista_produto{
+                        width: 160px;
+                      }
+                    </style>
+                    <link rel = "stylesheet" media = "screen" href = "https://www.ladornistore.com.br/inc_layout/vitrine2_css.php?cor14=FFFFFF&versao=5.98" />
+                    <script src="vitrine2.js"></script>
+
+                    <script>
+
+
+                      var vitrine;
+                      $('#id_Vitrine').ready(function(e) {
+                        carrega_vetor_vitrine();
+                      });
+                      function carrega_vetor_vitrine(){
+                        var jqxhr = $.get( "https://api.myjson.com/bins/eip1d", {} )
+                          .done(function( data ) {
+                            console.log(data);
+                            aux = data;
+                            if(aux.resultado== "falha")
+                              alert(aux.erro.mensagem);
+                            else{
+                              vitrine = aux.vitrine;
+                              carrega_vitrine('Vitrine');
+                              IgualarProdutos(".produto_unico");
+
+                            }
+                          })
+                          .fail(function() {
+                            console.log( "Erro ao carregar a vitrine.\n");
+                          });
+                      }
+
+
+
+
+
+
+                    </script>
+                    <tr class="tr_vitrine">
+                      <td  class="caixaTextoBorda" id="id_Vitrine">
+                      </td>
+                    </tr>
+
+                    <!--/tr ficou no include -->
+                  </table>
+                  </td>
+                </tr>
+              </table>
+              <!--E7R Code Begin -->
+              <script type="text/javascript" language="javascript">
+                e7rNavigation = {};
+                e7rNavigation.PageName = "Home";
+                e7rNavigation.CodParentCategory = "0";
+                e7rNavigation.CodCategory = "0";
+                e7rNavigation.CategoryName = "";
+                e7rNavigation.ShopperID = "ft4u8h5knopnrkv6q062grt3t6";
+                e7rNavigation.StoreType = "1";
+
+
+                try {
+                  (function() {
+                    var e7rTrack = document.createElement('script');
+                    e7rTrack.type = 'text/javascript';
+                    e7rTrack.setAttribute('async', 'true');
+                    e7rTrack.src = (("https:" == document.location.protocol) ?"https://ssltrack." : "http://track.") + "e7r.com.br/aspx/tracking.ashx?parceiro=E7R109F5EF";
+                    document.documentElement.firstChild.appendChild(e7rTrack);
+                  })();
+                }catch(err){alert(err)}
+              </script>  								<div id="dive7rCenterBottom" align="center"></div>
+            </div>
+          </td>
+          <td valign="top" class="td_direita" id="id_td_direita">
+
+          </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td class="td_rodape" id="id_td_rodape">
+        <style>
+          @import url(http://fonts.googleapis.com/css?family=Roboto);
+        </style>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center" valign="middle" bgcolor="#6E0202" style="padding-bottom:5px; padding-top:5px;"><table width="1020" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center" valign="middle">
+
+                  <div id="fb-root"></div>
+                  <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=136675903185296";
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));</script>
+
+                  <div class="fb-page" data-href="https://www.facebook.com/pages/Vin%C3%ADcola-La-Dorni-do-Brasil-Ltda/168902366495327" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Vin%C3%ADcola-La-Dorni-do-Brasil-Ltda/168902366495327"><a href="https://www.facebook.com/pages/Vin%C3%ADcola-La-Dorni-do-Brasil-Ltda/168902366495327">Vinícola La Dorni do Brasil Ltda.</a></blockquote></div></div>
+
+                </td>
+                <td width="60%" align="right" valign="middle" style="padding:10px; color:#215A85; font-size:0.95em; font-weight:800;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="right" valign="middle" style="color:#FFF; font-size:1em; font-family: 'Roboto', sans-serif !important;">La Dorni Store<BR>Rua Sebastião D. do Nascimento, 0    - Pq. Ind. Bela Vista - Bandeirantes - PR<BR>Cep:86.360-000<BR>43-35424315<br><br><br></td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="middle">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="right" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="right" valign="middle"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/compra.png"  title="Compra Segura" /></td>
+                        <td align="right" valign="middle"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/entrega.png" title="Entregamos em Todo Brasil" /></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+
+          </tr>
+          <tr>
+            <td align="center" valign="middle" bgcolor="#FFFFFF"><img src="https://img2.dnsloja.com/arquivos_loja/30198/arquivo/pag_seguro.png" title="Pagamento Seguro e Facilitado" /></td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" bgcolor="#FFFFFF"></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</div>
+<div style="width:100%; font-size:10px; text-align:center" class="desenvolvido_por smallText">
+  <a class="smallText" href="http://www.lojasvirtuais-br.com.br/" target="_blank" >Desenvolvido por </a>
+  <a class="smallText" href="https://www.lojasvirtuais-br.com.br/" target="_blank" >Lojas Virtuais </a>
+  <a href="http://www.e-commercegratis.com.br" target="_blank" class="smallText" >BR</a>
+</div><script type="text/javascript" id="getSelo" src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?47354"></script>
+
+</body>
+</html>
